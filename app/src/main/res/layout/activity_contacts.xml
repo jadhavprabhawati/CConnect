@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactsActivity">
+
+    <Button
+        android:id="@+id/button_police"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginRight="158dp"
+        android:background="@drawable/police" />
+
+    <Button
+        android:id="@+id/button_firebrigade"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginRight="155dp"
+        android:background="@drawable/fire" />
+
+    <Button
+        android:id="@+id/button_ambulance"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginRight="149dp"
+        android:background="@drawable/ambulance" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="156dp"
+        android:text="@string/police"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginRight="155dp"
+        android:text="@string/fire_brigade"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginRight="141dp"
+        android:text="@string/ambulance"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

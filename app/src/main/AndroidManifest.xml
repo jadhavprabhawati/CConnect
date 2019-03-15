@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prabhat.myapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HospitalActivity"></activity>
+        <activity
+            android:name=".AnnouncementActivity"
+            android:label="@string/annoncement" />
+        <activity android:name=".ComplaintsActivity" />
+        <activity android:name=".OnUpEventActivity" />
+        <activity android:name=".WhetherActivity" />
+        <activity android:name=".ElectedWingsActivity" />
+        <activity android:name=".BanksActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".ContactsActivity" />
+        <activity android:name=".AboutCityActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
